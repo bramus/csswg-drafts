@@ -151,6 +151,15 @@ spec:selectors-4; type:dfn; text:selector
 	The startmost scroll position represents 0% progress
 	and the endmost scroll position represents 100% progress.
 
+	<figure>
+		<img src="images/TODO.svg"
+				alt="Diagram of …"
+		>
+		<figcaption>
+			Diagram of …
+		</figcaption>
+	</figure>
+
 	[=Scroll progress timelines=] can be referenced in 'animation-timeline'
 	anonymously using the ''scroll()'' [=functional notation=]
 	or by name (see [[#timeline-scoping]])
@@ -416,6 +425,15 @@ spec:selectors-4; type:dfn; text:selector
 	and the endmost such scroll position represents 100% progress;
 	see [[#view-timeline-progress]].
 
+	<figure>
+		<img src="images/TODO.svg"
+				alt="Diagram of …"
+		>
+		<figcaption>
+			Diagram of …
+		</figcaption>
+	</figure>
+
 	Note: The 0% and 100% scroll positions are not always reachable,
 	e.g. if the box is positioned
 	at the start edge of the [=scrollable overflow rectangle=],
@@ -497,7 +515,14 @@ spec:selectors-4; type:dfn; text:selector
 				coincides with the [=start=] edge of its [=view progress visibility range=].
 	</dl>
 
-	ISSUE: Insert diagrams.
+	<figure>
+		<img src="images/TODO.svg"
+				alt="Diagrams of …"
+		>
+		<figcaption>
+			Diagrams of …
+		</figcaption>
+	</figure>
 
 	In all cases, the [=writing mode=] used to resolve the [=start=] and [=end=] sides
 	is the [=writing mode=] of the relevant [=scroll container=].
